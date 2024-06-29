@@ -1,7 +1,7 @@
 
 import { html, TemplateResult } from 'lit';
 import './tabs.component';
-import { TabInterface, TabsProps } from './tabs';
+import { TabsProps } from './tabs';
 
 export default {
   title: 'Molecules/Tabs',

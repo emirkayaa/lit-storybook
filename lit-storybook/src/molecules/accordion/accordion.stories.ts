@@ -1,4 +1,3 @@
-import { Meta } from "@storybook/web-components";
 import "./accordion.component";
 import { AccordionProps } from "./accordionInterface";
 import { TemplateResult, html } from "lit";
