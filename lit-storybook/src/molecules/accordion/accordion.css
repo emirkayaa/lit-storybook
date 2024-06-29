@@ -1,0 +1,19 @@
+
+.header {
+    cursor: pointer;
+    padding: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+  }
+  
+  .content {
+    padding: 16px;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .content[open] {
+    display: block;
+  }
+  
