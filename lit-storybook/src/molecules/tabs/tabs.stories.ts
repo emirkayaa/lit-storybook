@@ -1,4 +1,4 @@
-// MyTabs.stories.ts
+
 import { html, TemplateResult } from 'lit';
 import './tabs.component';
 import { TabInterface, TabsProps } from './tabs';
