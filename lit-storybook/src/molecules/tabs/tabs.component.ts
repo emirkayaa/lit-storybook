@@ -46,7 +46,7 @@ export class TabsComponent extends LitElement {
         )}
       </div>
       <div class="content">
-        ${activeTabContent}
+        <slot name="content-${this.activeTab}">${activeTabContent}</slot>
       </div>
     `;
   }

@@ -1,12 +1,13 @@
 import { Meta, StoryObj } from "@storybook/web-components";
 import  "./card.component";
 import { CardInterface } from "./card";
+import { html } from "lit";
 
 const meta: Meta = {
     title: "Molecules/Card/Default",
     tags: ['autodocs'],
     component: 'card-component',
-    render: (args: CardInterface) => `<card-component title="${args.title}" description="${args.description}"></card-component>`,
+    render: (args: CardInterface) => html`<card-component title="${args.title}" description="${args.description}"></card-component>`,
     argTypes: {
         title: {
          control:  { type: "text" },

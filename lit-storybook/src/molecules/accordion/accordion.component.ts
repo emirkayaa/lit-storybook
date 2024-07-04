@@ -58,7 +58,7 @@ export class AccordionComponent extends LitElement {
                     
                     </div>
                     <div class="accordion-content" style="display: ${this.active === index ? 'block' : 'none'};">
-                        ${item.content}
+                        <slot name="content-${index}"></slot>
                     </div>    
                 </div>
                 
